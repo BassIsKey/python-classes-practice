@@ -1,10 +1,11 @@
-def force(x, y)
-  ans = x * y
-  return ans
+class Robot:
+  def __init__(self, name, color, weight):
+    self.name = name
+    self.color = color
+    self.weight = weight
+    
+    def introduce_self(self):
+      print(f"My name is {self.name}")
 
-
-press = input("Pressure?")
-area = input("Area?")
-
-print(force(press, area))
-
+r1 = Robot("Tom", "red", 30)
+r2 = Robot("Jerry", "blue", 40)
