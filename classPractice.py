@@ -9,3 +9,6 @@ class Robot:
 
 r1 = Robot("Tom", "red", 30)
 r2 = Robot("Jerry", "blue", 40)
+
+r1.introduce_self()
+r2.introduce_self()
